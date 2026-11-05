@@ -21,7 +21,7 @@ This list describes the workflows the skill covers. It does not claim that every
 
 ## Install in Codex
 
-Clone this private repository first (Git access to the repository is required):
+Clone this public repository:
 
 ```bash
 git clone https://github.com/owais-cpu/owais-projects-skills.git "$HOME/owais-projects-skills"
@@ -110,3 +110,9 @@ skills/
 └── owais-projects-workflow/
     └── SKILL.md
 ```
+
+## License and reuse
+
+The current version is under the [Owais Projects Limited-Use License](LICENSE). It permits unmodified personal or internal business use, including uploading an unmodified copy to an AI assistant for those purposes, and using the workflow to produce your own work. It does not permit modifying or redistributing the skill files.
+
+**Earlier-version notice:** A previous public commit contained an MIT license. This replacement does not revoke permissions already granted for that earlier version or copies made under it. The current version on the main branch uses the limited-use terms above.
