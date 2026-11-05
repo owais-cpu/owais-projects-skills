@@ -1,0 +1,14 @@
+{
+  "name": "owais-projects-skills",
+  "description": "Owais Projects workflow skills for ecommerce, software, automation, analytics, security, and operations.",
+  "owner": {
+    "name": "Owais Projects"
+  },
+  "plugins": [
+    {
+      "name": "owais-projects-workflow",
+      "source": "./plugins/owais-projects-workflow",
+      "description": "Portable workflows for Shopify, ecommerce, apps, automation, GA4/GTM, WordPress, Laravel, SQL, security, mobile, VPS/CLI, and QA."
+    }
+  ]
+}

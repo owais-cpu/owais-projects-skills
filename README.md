@@ -19,6 +19,39 @@ A portable workflow skill for technical, ecommerce, AI, analytics, and operation
 
 This list describes the workflows the skill covers. It does not claim that every area has a verified completed project.
 
+## Fast install
+
+### Claude Code plugin (one-time setup)
+
+Run these as **two separate commands** in Claude Code:
+
+```text
+/plugin marketplace add owais-cpu/owais-projects-skills
+/plugin install owais-projects-workflow@owais-projects-skills
+```
+
+Then restart/reload Claude Code and invoke `/owais-projects-workflow:owais-projects-workflow` when you want it. In Claude Code Desktop, use **Plugins → Add plugin** and select the Owais Projects marketplace.
+
+### Codex and other supported local coding agents
+
+Install the skill globally across supported agents with the Skills CLI:
+
+```bash
+npx skills add owais-cpu/owais-projects-skills --skill owais-projects-workflow --agent '*' --global --yes
+```
+
+Or choose specific agents, for example:
+
+```bash
+npx skills add owais-cpu/owais-projects-skills --skill owais-projects-workflow --agent codex --agent claude-code --global
+```
+
+This CLI supports many local coding agents; available targets depend on its current agent list. To install only in the current project, omit `--global`. To update later, run `npx skills update owais-projects-workflow --global`.
+
+### ChatGPT, Claude.ai, and other chat interfaces
+
+These interfaces do not install files into a local agent folder with a shell command. Download `skills/owais-projects-workflow/SKILL.md` from this repository and add it through the platform’s Project/Skill settings. See the platform-specific instructions below.
+
 ## Install in Codex
 
 Clone this public repository:
